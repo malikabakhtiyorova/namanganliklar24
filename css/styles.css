@@ -1,4 +1,7 @@
-/* FONTS */
+/* Table of contents */
+/* 1,Fonts */
+/* 2,Styles */
+/*3, Container */
 @font-face {
   font-family: 'Rubik';
   font-style: normal;
@@ -9,10 +12,9 @@
 }
 
 @font-face {
+  font-family: 'Rubik';
   font-weight: 400;
   font-display: swap;
-  font-family: 'Rubik';
-  url('../webfonts/rubik-v9-latin-regular.woff2') format('woff2'), 
   font-style: normal;
   src: 
   url('../webfonts/rubik-v9-latin-500.woff2') format('woff2'), 
@@ -71,6 +73,26 @@
        url('../webfonts/roboto-v20-latin-500.woff') format('woff'); 
 }
 
+/* General Styles */
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 body {
+  height: 100%;
   font-family: 'Rubik', 'Arial', sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  color: #434343;
+}
+/* Container */
+.container {
+  max-width: 1240px;
+  padding: 0 20;
+  margin: 0 auto;
 }
