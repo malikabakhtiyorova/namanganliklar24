@@ -9,48 +9,90 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body class="page_body">
+<body>
 
-    <header class="site-header">
+    <header class="header-section">
         <div class="container">
-            <div class="site-header_top">
-                <a class="logo" href="index.html"> <img class="logo_img" src="img/logo.svg"
-                        alt="Namanganliklar24 logo" width="303" height="33"></a>
+            <div class="header-section-top">
+                <a class="logo-link" href="#"> 
+                    <img class="logo-img" src="img/logo.svg" alt="Namanganliklar24 logo" width="303" height="33">
+                </a>
 
-                <ul class="exchange-rates">
-                    <li class="exchange-rates_item"><b class="exchange-rates_icon"> &dollar;</b>
-                        <span class="exchange-rates_value">10137.2</span>
+                <ul class="money-exchange">
+                    <li class="money-exchange-list">
+                        <b class="money-exchange-icon">&dollar;</b>
+                        <span class="money-exchange-value">10137.2</span>
                     </li>
-                    <li class="exchange-rates_item"><b class="exchange-rates_icon">P</b>
-                        <span class="exchange-rates_value">138.26 </span>
+                    <li class="money-exchange-list">
+                        <b class="money-exchange-icon">P</b>
+                        <span class="money-exchange-value">138.26 </span>
                     </li>
-                    <li class="exchange-rates_item"><b class="exchange-rates_icon"> &euro; </b>
-                        <span class="exchange-rates_value">10988.72</span>
+                    <li class="money-exchange-list">
+                        <b class="money-exchange-icon">&euro;</b>
+                        <span class="money-exchange-value">10988.72</span>
                     </li>
                 </ul>
 
-                <div class="site-header_actions">
-                    <button class="search-button" type="button"><img class="search-button_img"
-                            src="img/search.svg" alt="search icon" width="24" height="24"></button>
-
-
-                    <button class="language-toggler" type="button"><img class="language-toggler_img"
-                            src="img/ru.svg" alt="search icon" width="20" height="20">
-                        <span class="language-toggler_text">РУ</span>
+                <div class="header-section-left">
+                    <button class="search-button" type="button">
+                        <img src="img/search.svg" alt="search icon" width="24" height="24">
                     </button>
-                    <a class="telegram-sub" href="https://t.me.to/mayoquz" target="_blank">
-                        <img class="telegram-sub_img" src="img/telegram.svg" alt="logo-telegram"
-                            width="20" height="20">
-                        <span class="telegram-sub_text">Подписатся</span>
+                    <button class="language-ru" type="button">
+                        <img src="img/ru.svg" alt="search icon" width="20" height="20">
+                        <span>РУ</span>
+                    </button>
+                    <a class="telegram-join-link" href="https://t.me.to/mayoquz" target="_blank">
+                        <img src="img/telegram.svg" alt="logo-telegram" width="20" height="20">
+                        <span>Подписатся</span>
                     </a>
-                </div> <!-- site-header_actions -->
-            </div> <!-- site-header_top -->
+                </div> <!-- site-header-left -->
+            </div> <!-- header-section-top -->
 
+            <nav class="nav-bar">
+                <ul class="nav-menu">
+                    <li class="nav-menu-list">
+                        <a href="#">Узбекистана</a>
+                    </li>
+                    <li class="nav-menu-list">
+                        <a href="#">Мир</a>
+                    </li>
+                    <li class="nav-menu-list">
+                        <a href="#">Экономика</a>
+                    </li>
+                    <li class="nav-menu-list active-menu-list">
+                        <a href="#">Политика</a>
+                    </li>
+                    <li class="nav-menu-list">
+                        <a href="#">Общество</a>
+                    </li>
+                    <li class="nav-menu-list">
+                        <a href="#">Технологии</a>
+                    </li>
+                    <li class="nav-menu-list">
+                        <a href="#">Спорт</a>
+                    </li>
+                    <li class="nav-menu-list">
+                        <a href="#">Культура</a>
+                    </li>
+                    <li class="nav-menu-list">
+                        <a href="#">Происшествия</a>
+                    </li>
+                    <li class="nav-menu-list">
+                        <a href="#">Туризм</a>
+                    </li>
+                </ul>
+            </nav> <!-- header-lists -->
         </div> <!-- container -->
     </header>
 
+    <aside class="phone-number">
+        <div class="container">
+            <a class="phone-number-link" href="#">
+                <img src="img/phone-number.jpg" alt="phone number image" width="1200" height="99">
+            </a>
+        </div>
+    </aside>
 
-    <script src="js/main.js"></script>
 </body>
 
 </html>
