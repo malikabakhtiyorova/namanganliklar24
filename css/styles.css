@@ -225,7 +225,6 @@ body {
 .patient-part {
   display: flex;
   padding: 15px;
-  height: 80px;
 }
 .patient {
   border-right: 3px solid #F4CCD1;
@@ -248,6 +247,9 @@ body {
 }
 .patient b {
   color: #000;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 500;
 }
 .died {
   border-right: none;
