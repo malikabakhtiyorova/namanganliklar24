@@ -487,7 +487,8 @@ footer {
   line-height: 17px;
 }
 .footer-top a {
-  display: inline-block;
+  display: flex;
+  align-items: center;
   padding: 10px;
   color: #295093;
   text-decoration: none;
