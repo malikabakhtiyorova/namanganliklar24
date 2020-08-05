@@ -74,6 +74,10 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+img {
+  display: block;
+}
 /* BODY HEADER SECTION */
 .header-section {
   border-top: 4px solid #295093;
@@ -136,10 +140,17 @@ body {
 }
 /* Language Ru Button */
 .language-ru{
+  display: flex;
   padding: 10px 11px;
   border: none;
   background-color: #fff;
   border-radius: 5px;
+}
+
+.language-ru span {
+  margin-top: 5px;
+  margin-left: 5px;
+  font-weight: 500;
 }
 .language-ru img{
   border-radius: 50%;
@@ -202,7 +213,7 @@ body {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  padding: 25px;
+  padding: 15px;
   background: #F6F6F9;
   border-radius: 5px;
   margin-bottom: 20px;
@@ -250,6 +261,7 @@ body {
   font-size: 25px;
   line-height: 30px;
   font-weight: 500;
+  display: block;
 }
 .died {
   border-right: none;
@@ -740,4 +752,60 @@ form input::placeholder, textarea::placeholder {
   color: #fff;
   font-size: 16px;
   line-height: 21px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4)
+}
+
+.modal-dialog {
+  width: 800px;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 280px;
+  padding: 10px 65px 30px 65px;
+}
+
+.modal-dialog p{
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 31px;
+  text-align: center;
+  color: #295093;
+}
+
+.modal-dialog a {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin-left: 250px;
+}
+
+.modal-dialog button {
+  background-color: #fff;
+  border: none;
+  color: #c0bdbd;
+  margin-left: 700px;
+  font-weight: 500;
+  outline: 0;
+  text-align: center;
+  box-shadow: 0px 0px 3px 3px rgba(56, 24, 24, 0.2);
+  cursor: pointer;
+}
+
+.telegram-modal-btn {
+  display: flex;
+  align-items: center;
+}
+
+.modal-open {
+  display: block;
 }
